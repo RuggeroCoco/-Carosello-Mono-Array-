@@ -30,11 +30,19 @@ img {
   height: 100%;
 }
 
+.container-images {
+  background-color: black;
+  height: calc(100% / 5);
+}
+
 .images {
   height: 100%;
   width: 100%;
+  opacity: 0.3;
 }
 
-.container-images {
-  height: calc(100% / 5);
+.images:hover {
+  border: 3px solid lightgray;
+  opacity: 1;
+  transition: 0.5s;
 }
