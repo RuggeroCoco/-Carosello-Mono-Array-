@@ -46,3 +46,30 @@ img {
   opacity: 1;
   transition: 0.5s;
 }
+
+.prev {
+  position: absolute;
+  background-color: lightgray;
+  width: 30px;
+  height: 30px;
+  right: 15.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.next {
+  position: absolute;
+  background-color: lightgray;
+  width: 30px;
+  height: 30px;
+  right: 15.5%;
+  bottom: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  cursor: pointer;
+}
