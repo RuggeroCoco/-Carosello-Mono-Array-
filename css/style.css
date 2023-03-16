@@ -35,13 +35,19 @@ img {
   height: calc(100% / 5);
 }
 
-.images {
+.image {
   height: 100%;
   width: 100%;
   opacity: 0.3;
 }
 
-.images:hover {
+/* .image:hover {
+  border: 3px solid lightgray;
+  opacity: 1;
+  transition: 0.5s;
+} */
+
+.active {
   border: 3px solid lightgray;
   opacity: 1;
   transition: 0.5s;
